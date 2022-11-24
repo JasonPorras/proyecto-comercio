@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.4375rem
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+ul , ol{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+

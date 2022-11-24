@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-comercio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonPorras/proyecto-comercio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonPorras/proyecto-comercio/issues"
+  },
+  "homepage": "https://github.com/JasonPorras/proyecto-comercio#readme",
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "sass": "^1.56.1"
+  }
+}
