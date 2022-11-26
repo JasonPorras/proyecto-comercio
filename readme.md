@@ -6,7 +6,7 @@ Instalar dependencias.
 
 Para correr el proyecto usar:
 
-npm run sass.
+npm run sass
 
 Integrantes:
 

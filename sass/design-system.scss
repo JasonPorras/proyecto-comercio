@@ -1,0 +1,166 @@
+@import "general";
+@import "colores";
+@import "botones";
+@import "header";
+@import "footer";
+
+body {
+  background-color: rgba(204, 204, 204, 0.555);
+}
+
+.margin-bottom {
+  margin: 100px 0;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+}
+
+// Tamaños y estilos de fuente textos
+.titulos {
+  font-size: 50px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  color: $rosa;
+}
+
+// Colores
+.colores {
+  &__card {
+    background-color: #fff;
+    max-width: 140px;
+    padding: 10px;
+
+    div {
+      height: 140px;
+    }
+  }
+
+  &__card1 {
+    background-color: $dorado;
+  }
+
+  &__card2 {
+    background-color: $rosa;
+  }
+
+  &__card3 {
+    background: $degradado;
+  }
+
+  &__card4 {
+    background-color: $crema;
+  }
+
+  &__card5 {
+    background-color: $negro;
+  }
+}
+
+// Efectos
+.efectos {
+  .flex {
+    span {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
+  &__card1 {
+    background-color: $amarillo;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  }
+
+  &__card2 {
+    background-color: $rosa;
+    box-shadow: 0px 6px 6px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__card3 {
+    background-color: $azul;
+    box-shadow: 7px 6px 6px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+// Ejemplos Botones No usar
+.botones {
+  &__default {
+    border: 2px solid $negro;
+    background-color: $blanco;
+  }
+
+  &__hover {
+    background: $degradado;
+    border: 2px solid transparent;
+
+    z-index: 1;
+    &::before {
+      background-color: $crema;
+      content: "";
+      position: absolute;
+
+      inset: 0;
+      z-index: -1;
+      border-radius: inherit;
+    }
+  }
+
+  &__disabled {
+    background-color: $gris;
+  }
+
+  .nav-boton {
+    margin-bottom: 50px;
+  }
+
+  &__default2 {
+    background-color: $rosa;
+  }
+
+  &__hover2 {
+    background-color: rgba(239, 48, 97, 0.62);
+  }
+}
+
+// Formularios
+.formulario {
+  max-width: 350px;
+  border-radius: 53px;
+  background-color: $gris;
+  padding: 60px;
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  img {
+    max-width: 143px;
+  }
+
+  &__form div {
+    display: flex;
+  }
+
+  &__form div:last-child {
+    justify-content: space-between;
+  }
+
+  &__campos {
+    flex-grow: 1;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #B6B4B4;
+    border: none;
+  }
+
+  &__campos::placeholder {
+    font-size: 1.375rem;
+    color: $negro;
+  }
+}

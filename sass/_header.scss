@@ -1,0 +1,61 @@
+// Barra navegacion home
+.header-home {
+  background-color: $negro;
+  &__background--blanco {
+    background-color: $blanco;
+    height: 14.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__background--negro {
+    background-color: $negro;
+  }
+
+  &__nav {
+    padding: 30px 0;
+  }
+
+  &__list {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+}
+
+// Header General
+.header {
+  background-color: $negro;
+
+  h2 {
+    text-align: center;
+    color: $blanco;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  &__flex { display: flex; }
+
+  &__nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    gap: 100px;
+  }
+
+  &__btn {
+    width: 150px;
+    height: 150px;
+    border: none;
+    background: none;
+  }
+}
+
+
+
+
