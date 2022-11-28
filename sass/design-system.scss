@@ -14,7 +14,7 @@ body {
 
 .flex {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 // Tamaños y estilos de fuente textos
@@ -95,6 +95,7 @@ body {
     border: 2px solid transparent;
 
     z-index: 1;
+
     &::before {
       background-color: $crema;
       content: "";
@@ -139,6 +140,7 @@ body {
     font-size: 2rem;
     text-align: center;
   }
+
   img {
     max-width: 143px;
   }
@@ -163,4 +165,67 @@ body {
     font-size: 1.375rem;
     color: $negro;
   }
+}
+
+//Cards information
+.cards {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+
+  &__image {
+    flex-basis: 60%;
+  }
+
+  &__information {
+    flex-basis: 30%;
+  }
+}
+
+.cards--reverse {
+  flex-direction: row-reverse;
+}
+
+//Products Scroll
+
+.products {
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__icons {
+    max-width: 40px;
+    background-color: $gris;
+    background: lightslategrey;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+
+  &__image {
+    max-width: 200px;
+  }
+
+  &__target--gris {
+    background-color: $gris;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  &__target__flex {
+    display: flex;
+    width: 260px;
+  }
+
+  &__target__information {
+    flex-basis: 60%;
+    text-align: start;
+  }
+
+  &__target__cesta {
+    max-width: 100px;
+    flex-basis: 40%;
+  }
+
 }
