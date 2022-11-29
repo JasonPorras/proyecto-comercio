@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../../sass/_general.scss","../../sass/_botones.scss","../../sass/_colores.scss","../../sass/_header.scss","../../sass/_footer.scss"],"names":[],"mappings":"AAAQ;AACA;ACCR;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OCVM;EDWN;;AAGA;EACE,kBCFK;;ADKP;EACE,YCdQ;EDeR;EAEA;;AACA;EACE,kBCtBE;EDuBF;EACA;EAEA;EACA;EACA;;AAKJ;EACE,kBCnCG;;ADqCH;EACE;;;ADpCN;EACI;EACA;EACA;EACA;;;AAIJ;EAAM;;;AAEN;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAIJ;AAAA;AAAA;EAGI;;;AAGJ;EACA;EACA;EACA;;;AAGA;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;;AGzDJ;EACE,kBDFM;;ACGN;EACE,kBDSK;ECRL;EACA;EACA;EACA;;AAGF;EACE,kBDZI;;ACeN;EACE;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAKJ;EACE,kBD9BM;;ACgCN;EACE;EACA,ODrBK;ECsBL;EACA;;AAGF;EAAU;;AAEV;EACE;EACA;;AAGF;EACE;;AAGF;EACE;EACA;EACA;EACA;;;ACrDJ;EACE,kBFFM;EEGN;;AAEA;EACE;EACA;;AAGF;EACE;EACA,OFCK;;AEEP;EACE;EACA;;AAEA;EAAK","file":"style.css"}
+>>>>>>> Stashed changes
