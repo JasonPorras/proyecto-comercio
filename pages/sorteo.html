@@ -15,10 +15,10 @@
       <h2>Cesta <br> Dorada</h2>
 
       <ol class="header__list header__flex">
-        <li><a href="#" class="btn btn__nav">Inicio</a></li>
-        <li><a href="#" class="btn btn__nav">Sorteo</a></li>
-        <li><a href="#" class="btn btn__nav">Promociones</a></li>
-        <li><a href="#" class="btn btn__nav">Bonus</a></li>
+        <li><a href="../index.html" class="btn btn__nav">Inicio</a></li>
+        <li><a href="./sorteo.html" class="btn btn__nav">Sorteo</a></li>
+        <li><a href="./promocion.html" class="btn btn__nav">Promociones</a></li>
+        <li><a href="./bonus.html" class="btn btn__nav">Bonus</a></li>
       </ol>
 
       <button class="header__btn">
@@ -28,14 +28,78 @@
   </header>
 
   <main class="container">
+
     <div class="information">
       <img src="../public/assets/img/sorteo_img/pareja_comprando.png" alt="una mujer y un hombre eligiendo frutas en el supermercado">
       <p>Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe qui suscipit asperiores ad modi cupiditate et soluta corporis! Rem molestiae quas id omnis ullam est facere voluptatum. Sed ducimus veritatis et porro voluptatum est eius quia vel architecto eaque et animi aspe       riores in omnis nostrum. Ut asperiores accusamus vel eius vitae sed harum vero qui asperiores similique!</p>
     </div>
 
+    <section class="container display_flex margin">
+  
+      <div class="formulario">
+      <h2 class="titulos">Sorteo Vigente</h2>
+        <form action="" class="formulario__form">
+          <div>
+            <label class="sr-only" for="nombre">nombre</label>
+            <input class="formulario__campos formulario--nombre" type="text" name="" id="nombre"
+              placeholder="Nombre completo">
+          </div>
+          <div>
+            <label class="sr-only" for="correo">correo</label>
+            <input class="formulario__campos formulario--correo" type="email" name="" id="correo"
+              placeholder="Correo electronico">
+          </div>
+          <div>
+            <label class="sr-only" for="factura">Numero Cedula</label>
+            <input class="formulario__campos formulario--factura" type="number" name="" id="factura"
+              placeholder="Número Cedula">
+          </div>
+          <div>
+            <label class="sr-only" for="telefono">Mensaje</label>
+            <input class="formulario__campos formulario--telefono" type="text" name="" id="telefono"
+              placeholder="Mensaje que desea enviarnos">
+          </div>
+          <div>
+            <input type="reset" value="Eliminar" class="btn btn__form">
+            <input type="submit" value="Enviar" class="btn btn__nav">
+          </div>
+        </form>
+      </div>
 
+      <div class="formulario ">
+        <h2 class="titulos">Premios del sorteo</h2>
+        <div class="margin-bottom">
+          <div class=" display_flex">
+            <img src="../public/assets/img/sorteo_img/refrigerandor.png" alt="imagen de un refrigerandor">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum facilis dignissimos aut, </p>
+          </div>
+          <div class=" display_flex">
+            <img src="../public/assets/img/sorteo_img/microondas.png" alt="imagen de un microondas">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class=" display_flex">
+            <img src="../public/assets/img/sorteo_img/audifonos.png" alt="imagen de un par de audifonos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer class="footer">
+    <div class="container footer__container">
+      <p>
+        Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe qui suscipit asperiores ad modi cupiditate et
+        soluta corporis! Rem molestiae quas id omnis ullam est facere voluptatum. Sed ducimus veritatis et porro
+        voluptatum est eius quia vel architecto eaque et animi asperiores in omnis nostrum. Ut asperiores accusamus vel
+        eius vitae sed harum vero qui asperiores similique!
+      </p>
 
+      <ol class="footer__list">
+        <li><a href="#"><img src="../public/assets/icons/facebook.svg" alt=""></a></li>
+        <li><a href="#"><img src="../public/assets/icons/whatsapp.svg" alt=""></a></li>
+      </ol>
+    </div>
+  </footer>
 </body>
 </html>

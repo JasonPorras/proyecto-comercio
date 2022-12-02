@@ -326,8 +326,59 @@ a {
   max-width: 100px;
 }
 
+.margin {
+  margin: 8%;
+}
+
 .information {
   margin: 8%;
+}
+
+.titulos {
+  font-size: 50px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+.formulario {
+  max-width: 350px;
+  border-radius: 53px;
+  background-color: #d9d9d9;
+  padding: 60px;
+  margin-right: 5%;
+}
+.formulario__text {
+  display: flex;
+  justify-content: space-between;
+}
+.formulario h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.formulario img {
+  max-width: 143px;
+}
+.formulario__form div {
+  display: flex;
+}
+.formulario__form div:last-child {
+  justify-content: space-between;
+}
+.formulario__campos {
+  flex-grow: 1;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #B6B4B4;
+  border: none;
+}
+.formulario__campos::placeholder {
+  font-size: 1.375rem;
+  color: #1c1c1c;
+}
+
+.display_flex {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
