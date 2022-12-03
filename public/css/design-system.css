@@ -283,6 +283,9 @@ body {
   background-color: #B6B4B4;
   border: none;
 }
+.formulario--mitad {
+  max-width: 245px;
+}
 .formulario__campos::placeholder {
   font-size: 1.375rem;
   color: #1c1c1c;
