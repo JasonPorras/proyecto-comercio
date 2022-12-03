@@ -2,13 +2,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap");
+.btn {
+  display: flex;
+  position: relative;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 400;
+  color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+}
+.btn__nav {
+  background-color: #fff;
+}
+.btn__nav:hover, .btn__nav:active {
+  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
+  border: 2px solid transparent;
+  z-index: 1;
+}
+.btn__nav:hover:before, .btn__nav:active:before {
+  background-color: #eed893;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+}
+.btn__form {
+  background-color: #ef3061;
+}
+.btn__form:hover {
+  background-color: rgba(239, 48, 97, 0.62);
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
 }
 
 img {
@@ -37,7 +73,8 @@ h3 {
   font-family: "Architects Daughter", cursive;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -50,6 +87,8 @@ a {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  display: grid;
+  gap: 100px;
 }
 
 .sr-only {
@@ -167,180 +206,94 @@ a {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  background-color: rgba(204, 204, 204, 0.555);
 }
 
-img {
-  width: 100%;
+.margin-bottom {
+  margin: 100px 0;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3.4375rem;
-}
-
-h3 {
-  font-size: 2.25rem;
-}
-
-p {
-  font-size: 20px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Architects Daughter", cursive;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.sr-only {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.btn {
+.flex {
   display: flex;
-  position: relative;
-  padding: 0.625rem;
-  font-size: 1.5rem;
-  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  font-weight: 400;
-  color: #1c1c1c;
-  border: 2px solid #1c1c1c;
-}
-.btn__nav {
-  background-color: #fff;
-}
-.btn__nav:hover, .btn__nav:active {
-  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
-  border: 2px solid transparent;
-  z-index: 1;
-}
-.btn__nav:hover:before, .btn__nav:active:before {
-  background-color: #eed893;
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  border-radius: inherit;
-}
-.btn__form {
-  background-color: #ef3061;
-}
-.btn__form:hover {
-  background-color: rgba(239, 48, 97, 0.62);
-}
-
-.header-home {
-  background-color: #1c1c1c;
-}
-.header-home__background--blanco {
-  background-color: #fff;
-  height: 14.625rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-home__background--negro {
-  background-color: #1c1c1c;
-}
-.header-home__nav {
-  padding: 30px 0;
-}
-.header-home__list {
-  width: fit-content;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-}
-
-.header {
-  background-color: #1c1c1c;
-}
-.header h2 {
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  font-weight: 400;
-}
-.header__flex {
-  display: flex;
-}
-.header__nav {
-  justify-content: space-between;
-  align-items: center;
-}
-.header__list {
-  gap: 100px;
-}
-.header__btn {
-  width: 150px;
-  height: 150px;
-  border: none;
-  background: none;
-}
-
-.footer {
-  background-color: #1c1c1c;
-  padding: 20px 0;
-}
-.footer__container {
-  display: flex;
-  justify-content: space-between;
-}
-.footer p {
-  max-width: 780px;
-  color: #fff;
-}
-.footer__list {
-  display: flex;
-  gap: 30px;
-}
-.footer__list li {
-  max-width: 100px;
-}
-
-.margin {
-  margin: 8%;
-}
-
-.information {
-  margin: 8%;
+  gap: 20px;
 }
 
 .titulos {
   font-size: 50px;
   font-family: "Architects Daughter", cursive;
   font-weight: bold;
-  color: #1c1c1c;
+  color: #ef3061;
+}
+
+.colores__card {
+  background-color: #fff;
+  max-width: 140px;
+  padding: 10px;
+}
+.colores__card div {
+  height: 140px;
+}
+.colores__card1 {
+  background-color: #d4af37;
+}
+.colores__card2 {
+  background-color: #ef3061;
+}
+.colores__card3 {
+  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
+}
+.colores__card4 {
+  background-color: #eed893;
+}
+.colores__card5 {
+  background-color: #1c1c1c;
+}
+
+.efectos .flex span {
+  width: 200px;
+  height: 100px;
+}
+.efectos__card1 {
+  background-color: #FEF985;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.efectos__card2 {
+  background-color: #ef3061;
+  box-shadow: 0px 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.efectos__card3 {
+  background-color: rgba(0, 60, 229, 0.35);
+  box-shadow: 7px 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botones__default {
+  border: 2px solid #1c1c1c;
+  background-color: #fff;
+}
+.botones__hover {
+  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
+  border: 2px solid transparent;
+  z-index: 1;
+}
+.botones__hover::before {
+  background-color: #eed893;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+}
+.botones__disabled {
+  background-color: #d9d9d9;
+}
+.botones .nav-boton {
+  margin-bottom: 50px;
+}
+.botones__default2 {
+  background-color: #ef3061;
+}
+.botones__hover2 {
+  background-color: rgba(239, 48, 97, 0.62);
 }
 
 .formulario {
@@ -348,7 +301,6 @@ a {
   border-radius: 53px;
   background-color: #d9d9d9;
   padding: 60px;
-  margin-right: 5%;
 }
 .formulario__text {
   display: flex;
@@ -374,193 +326,12 @@ a {
   background-color: #B6B4B4;
   border: none;
 }
+.formulario--mitad {
+  max-width: 245px;
+}
 .formulario__campos::placeholder {
   font-size: 1.375rem;
   color: #1c1c1c;
-}
-
-.display_flex {
-  display: flex;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
-
-img {
-  width: 100%;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3.4375rem;
-}
-
-h3 {
-  font-size: 2.25rem;
-}
-
-p {
-  font-size: 20px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Architects Daughter", cursive;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.sr-only {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.btn {
-  display: flex;
-  position: relative;
-  padding: 0.625rem;
-  font-size: 1.5rem;
-  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  font-weight: 400;
-  color: #1c1c1c;
-  border: 2px solid #1c1c1c;
-}
-.btn__nav {
-  background-color: #fff;
-}
-.btn__nav:hover, .btn__nav:active {
-  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
-  border: 2px solid transparent;
-  z-index: 1;
-}
-.btn__nav:hover:before, .btn__nav:active:before {
-  background-color: #eed893;
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  border-radius: inherit;
-}
-.btn__form {
-  background-color: #ef3061;
-}
-.btn__form:hover {
-  background-color: rgba(239, 48, 97, 0.62);
-}
-
-.header-home {
-  background-color: #1c1c1c;
-}
-.header-home__background--blanco {
-  background-color: #fff;
-  height: 14.625rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-home__background--negro {
-  background-color: #1c1c1c;
-}
-.header-home__nav {
-  padding: 30px 0;
-}
-.header-home__list {
-  width: fit-content;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-}
-
-.header {
-  background-color: #1c1c1c;
-}
-.header h2 {
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  font-weight: 400;
-}
-.header__flex {
-  display: flex;
-}
-.header__nav {
-  justify-content: space-between;
-  align-items: center;
-}
-.header__list {
-  gap: 100px;
-}
-.header__btn {
-  width: 150px;
-  height: 150px;
-  border: none;
-  background: none;
-}
-
-.footer {
-  background-color: #1c1c1c;
-  padding: 20px 0;
-}
-.footer__container {
-  display: flex;
-  justify-content: space-between;
-}
-.footer p {
-  max-width: 780px;
-  color: #fff;
-}
-.footer__list {
-  display: flex;
-  gap: 30px;
-}
-.footer__list li {
-  max-width: 100px;
-}
-
-.margin {
-  margin: 10%;
-}
-
-.center {
-  text-align: center;
-  align-items: center;
-}
-
-.display_flex {
-  display: flex;
-}
-
-.flex {
-  display: flex;
-  gap: 20px;
 }
 
 .cards {
@@ -574,10 +345,13 @@ a {
 .cards__information {
   flex-basis: 30%;
 }
+.cards--reverse {
+  flex-direction: row-reverse;
+}
 
 .products {
-  min-width: 19.6875rem;
-  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .products__icons {
   max-width: 40px;
@@ -610,12 +384,189 @@ a {
   flex-basis: 40%;
 }
 
-.product {
-  align-items: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-.margin-bottom {
-  margin: 100px 0;
+img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.4375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Architects Daughter", cursive;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  gap: 100px;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.header-home {
+  background-color: #1c1c1c;
+}
+.header-home__background--blanco {
+  background-color: #fff;
+  height: 14.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-home__background--negro {
+  background-color: #1c1c1c;
+}
+.header-home__nav {
+  padding: 30px 0;
+}
+.header-home__list {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.header {
+  background-color: #1c1c1c;
+}
+.header h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+}
+.header__flex {
+  display: flex;
+}
+.header__nav {
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  gap: 100px;
+}
+.header__btn {
+  width: 150px;
+  height: 150px;
+  border: none;
+  background: none;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  max-width: 780px;
+  color: #fff;
+}
+.footer__list {
+  display: flex;
+  gap: 30px;
+}
+.footer__list li {
+  max-width: 100px;
+}
+
+.bonus {
+  margin-bottom: 100px;
+}
+.bonus .cards {
+  align-items: center;
+  justify-content: center;
+}
+.bonus .cards__image {
+  flex-basis: 512px;
+  height: fit-content;
+}
+.bonus .cards__information {
+  flex-basis: 438px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 100px;
+}
+.form--reverse {
+  flex-direction: row-reverse;
+}
+.form__text {
+  max-width: 462px;
+}
+
+.formulario__puntos {
+  margin: 0 auto;
+  position: relative;
+}
+.formulario__puntos button {
+  margin: 0 auto;
+}
+.formulario__puntos .caja {
+  background-color: #B6B4B4;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.formulario__puntos .icon {
+  width: 102px;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
