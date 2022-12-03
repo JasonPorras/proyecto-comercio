@@ -161,6 +161,10 @@ body {
     border: none;
   }
 
+  &--mitad {
+    max-width: 245px;
+  }
+  
   &__campos::placeholder {
     font-size: 1.375rem;
     color: $negro;

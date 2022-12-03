@@ -1,7 +1,10 @@
 // cards information
 .bonus {
+  margin-bottom: 100px;
+
   .cards {
     align-items: center;
+    justify-content: center;
     &__image {
       flex-basis: 512px;
       height: fit-content;
@@ -19,6 +22,9 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 100px;
 
   &--reverse {
     flex-direction: row-reverse;
@@ -26,5 +32,24 @@
 
   &__text {
     max-width: 462px;
+  }
+}
+
+.formulario__puntos {
+  margin: 0 auto;
+  position: relative;
+  button { margin: 0 auto;}
+
+  .caja {
+    background-color: #B6B4B4;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .icon {
+    width: 102px;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
   }
 }

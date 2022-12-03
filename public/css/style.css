@@ -322,6 +322,9 @@ body {
   background-color: #B6B4B4;
   border: none;
 }
+.formulario--mitad {
+  max-width: 245px;
+}
 .formulario__campos::placeholder {
   font-size: 1.375rem;
   color: #1c1c1c;
@@ -508,8 +511,12 @@ a {
   max-width: 100px;
 }
 
+.bonus {
+  margin-bottom: 100px;
+}
 .bonus .cards {
   align-items: center;
+  justify-content: center;
 }
 .bonus .cards__image {
   flex-basis: 512px;
@@ -524,12 +531,34 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 100px;
 }
 .form--reverse {
   flex-direction: row-reverse;
 }
 .form__text {
   max-width: 462px;
+}
+
+.formulario__puntos {
+  margin: 0 auto;
+  position: relative;
+}
+.formulario__puntos button {
+  margin: 0 auto;
+}
+.formulario__puntos .caja {
+  background-color: #B6B4B4;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.formulario__puntos .icon {
+  width: 102px;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
