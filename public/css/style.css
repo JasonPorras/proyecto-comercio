@@ -508,12 +508,28 @@ a {
   max-width: 100px;
 }
 
-.cards__image {
+.bonus .cards {
+  align-items: center;
+}
+.bonus .cards__image {
   flex-basis: 512px;
   height: fit-content;
 }
-.cards__information {
+.bonus .cards__information {
   flex-basis: 438px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.form--reverse {
+  flex-direction: row-reverse;
+}
+.form__text {
+  max-width: 462px;
 }
 
 /*# sourceMappingURL=style.css.map */

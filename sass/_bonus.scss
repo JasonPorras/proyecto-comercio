@@ -1,12 +1,30 @@
 // cards information
-.cards {
-  &__image {
-    flex-basis: 512px;
-    height: fit-content;
-  }
-
-  &__information {
-    flex-basis: 438px;
+.bonus {
+  .cards {
+    align-items: center;
+    &__image {
+      flex-basis: 512px;
+      height: fit-content;
+    }
+  
+    &__information {
+      flex-basis: 438px;
+    }
   }
 }
 
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
+  &__text {
+    max-width: 462px;
+  }
+}
