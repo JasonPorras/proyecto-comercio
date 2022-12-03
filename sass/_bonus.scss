@@ -1,0 +1,12 @@
+// cards information
+.cards {
+  &__image {
+    flex-basis: 512px;
+    height: fit-content;
+  }
+
+  &__information {
+    flex-basis: 438px;
+  }
+}
+

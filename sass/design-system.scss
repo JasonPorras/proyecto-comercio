@@ -180,10 +180,10 @@ body {
   &__information {
     flex-basis: 30%;
   }
-}
 
-.cards--reverse {
-  flex-direction: row-reverse;
+  &--reverse {
+    flex-direction: row-reverse;
+  }
 }
 
 //Products Scroll
