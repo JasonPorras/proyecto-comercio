@@ -164,7 +164,7 @@ body {
   &--mitad {
     max-width: 245px;
   }
-  
+
   &__campos::placeholder {
     font-size: 1.375rem;
     color: $negro;
@@ -205,8 +205,20 @@ body {
     height: 45px;
   }
 
-  &__image {
+  &__image--pepsi {
     max-width: 200px;
+  }
+
+  &__image--ginger {
+    max-width: 125px;
+  }
+
+  &__image--fanta {
+    max-width: 176px;
+  }
+
+  &__image--coca {
+    max-width: 221px;
   }
 
   &__target--gris {

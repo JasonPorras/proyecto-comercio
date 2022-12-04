@@ -361,8 +361,17 @@ body {
   width: 45px;
   height: 45px;
 }
-.products__image {
+.products__image--pepsi {
   max-width: 200px;
+}
+.products__image--ginger {
+  max-width: 125px;
+}
+.products__image--fanta {
+  max-width: 176px;
+}
+.products__image--coca {
+  max-width: 221px;
 }
 .products__target--gris {
   background-color: #d9d9d9;
