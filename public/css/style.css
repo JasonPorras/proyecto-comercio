@@ -569,4 +569,30 @@ a {
   right: 60px;
 }
 
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.search__imagen {
+  max-width: 150px;
+}
+.search__imagen--height {
+  max-width: 130px;
+}
+.search__titulo {
+  flex-basis: 45%;
+}
+.search__div {
+  flex-basis: 15%;
+}
+.search__div--gris {
+  background-color: #c0bfbf;
+  border-radius: 80px;
+  padding-left: 120px;
+  height: 120px;
+  text-align: right;
+}
+
 /*# sourceMappingURL=style.css.map */

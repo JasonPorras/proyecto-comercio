@@ -5,3 +5,36 @@
 @import 'header';
 @import 'footer';
 @import 'bonus';
+
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  &__imagen {
+    max-width: 150px;
+  }
+
+  &__imagen--height {
+    max-width: 130px;
+  }
+
+  &__titulo {
+    flex-basis: 45%;
+  }
+
+  &__div {
+    flex-basis: 15%;
+  }
+
+  &__div--gris {
+    background-color: #c0bfbf;
+    border-radius: 80px;
+    padding-left: 120px;
+    height: 120px;
+    text-align: right;
+  }
+
+}
