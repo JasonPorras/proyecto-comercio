@@ -1,0 +1,22 @@
+// Footer
+.footer {
+  background-color: $negro;
+  padding: 20px 0;
+  
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    max-width: 780px;
+    color: $blanco;
+  }
+
+  &__list  {
+    display: flex;
+    gap: 30px;
+
+    li { max-width: 100px; }
+  }
+}

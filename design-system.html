@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System</title>
+  <link rel="stylesheet" href="public/css/design-system.css">
+</head>
+
+<body>
+
+
+
+  <div class="container">
+
+    <!-- Tamaños de fuente -->
+    <div class="fuente margin-bottom">
+      <h2 class="titulos">Familia: Architects Daughter</h2>
+      <h1>Título h1 48px </h1>
+      <h2>Título h2 39px </h2>
+      <h3>Título h3 31px </h3>
+
+      <h2 class="titulos">Familia: Inter</h2>
+
+      <p>Parrafo p 16px / 18px</p>
+      <span>Span 14px</span>
+    </div>
+
+    <!-- Colores -->
+    <div class="colores margin-bottom">
+      <h2 class="titulos">Colores</h2>
+
+      <div class="flex">
+        <div class="colores__card">
+          <div class="colores__card1"></div>
+          <p>
+            #D4AF37
+            Color caracteriscico del ecommerce
+            Dorado
+          </p>
+        </div>
+
+        <div class="colores__card">
+          <div class="colores__card2"></div>
+          <p>
+            #EF3061
+            Color de boton para eliminar
+          </p>
+        </div>
+
+        <div class="colores__card">
+          <div class="colores__card3"></div>
+          <p>
+            #96fbc4→#f9f586
+            Degradado, color de boton al estar hover, borde. Colores que dan un leve toque de paz como lo es el
+            celestito y se conecta con un color derivado del dorado
+          </p>
+        </div>
+
+
+        <div class="colores__card">
+          <div class="colores__card4"></div>
+          <p>
+            #EED893
+            Degradado, color de boton al estar hover. Ya que es un derivado del dorado, color de preferencia de la
+            empresa
+          </p>
+        </div>
+
+
+        <div class="colores__card">
+          <div class="colores__card5"></div>
+          <p>
+            #090808
+            Colores de los fondos, nav y fooder.
+            Ya que representa seriedad a como lo es la marca
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Efectos -->
+    <div class="efectos margin-bottom">
+      <h2 class="titulos">Efectos</h2>
+      <div class="flex">
+        <span class="efectos__card1"></span>
+        <span class="efectos__card2"></span>
+        <span class="efectos__card3"></span>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="botones margin-bottom">
+      <h2 class="titulos">Botones: Estados</h2>
+
+      <div class="flex nav-boton">
+
+        <!-- Ejemplos No usar -->
+        <a href="#" class="btn botones__default">Default</a>
+        <a href="#" class="btn botones__hover">Hover</a>
+        <a href="#" class="btn botones__disabled">Disabled</a>
+
+        <!-- Usar: boton amarillo degradado-->
+        <a href="#" class="btn btn__nav">Hover Me</a>
+
+      </div>
+
+      <div class="flex">
+        <!-- Ejemolos No usar -->
+        <a href="#" class="btn botones__default2">Default</a>
+        <a href="#" class="btn botones__hover2">Hover</a>
+        <a href="#" class="btn botones__disabled2">Disabled</a>
+
+        <!-- Usar: boton rosa -->
+        <a href="#" class="btn btn__form">Hover Me</a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  <!-- barra navegacion home -->
+  <div class="container">
+    <h2 class="titulos">Header Home</h2>
+  </div>
+
+  <header class="header-home">
+
+    <div class="header-home__background--blanco">
+      <h2>Cesta Dorada</h2>
+    </div>
+
+    <div class="header-home__background--negro">
+      <nav class="container header-home__nav">
+
+        <ol class="header-home__list">
+          <li>
+            <div class="flex"><a href="#" class="btn btn__nav">Inicio</a></div>
+          </li>
+          <li><a href="#" class="btn btn__nav">Sorteo</a></li>
+          <li><a href="#" class="btn btn__nav">Promociones</a></li>
+          <li><a href="#" class="btn btn__nav">Bonus</a></li>
+        </ol>
+
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- header general -->
+  <div class="container">
+    <h2 class="titulos">Header general</h2>
+  </div>
+
+  <header class="header">
+
+    <nav class="container header__nav header__flex">
+      <h2>Cesta <br> Dorada</h2>
+
+      <ol class="header__list header__flex">
+        <li><a href="#" class="btn btn__nav">Inicio</a></li>
+        <li><a href="#" class="btn btn__nav">Sorteo</a></li>
+        <li><a href="#" class="btn btn__nav">Promociones</a></li>
+        <li><a href="#" class="btn btn__nav">Bonus</a></li>
+      </ol>
+
+      <button class="header__btn">
+        <img src="./public/assets/icons/cesta_blanca.svg" alt="">
+      </button>
+    </nav>
+  </header>
+
+
+  <!-- Footer -->
+  <div class="container">
+    <h2 class="titulos">Footer</h2>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <p>
+        Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe qui suscipit asperiores ad modi cupiditate et
+        soluta corporis! Rem molestiae quas id omnis ullam est facere voluptatum. Sed ducimus veritatis et porro
+        voluptatum est eius quia vel architecto eaque et animi asperiores in omnis nostrum. Ut asperiores accusamus vel
+        eius vitae sed harum vero qui asperiores similique!
+      </p>
+
+      <ol class="footer__list">
+        <li><a href="#"><img src="public/assets/icons/facebook.svg" alt=""></a></li>
+        <li><a href="#"><img src="public/assets/icons/whatsapp.svg" alt=""></a></li>
+      </ol>
+    </div>
+  </footer>
+
+
+  <!-- Formularios -->
+  <div class="container">
+    <h2 class="titulos">Formulario</h2>
+
+    <div class="formulario">
+      <div class="formulario__text">
+        <h3>Regalo por <br> cesta <br> frecuente</h3>
+        <img src="./public/assets/icons/cesta_ayuda.svg" alt="">
+      </div>
+      <form action="" class="formulario__form">
+        <div>
+          <label class="sr-only" for="nombre">nombre</label>
+          <input class="formulario__campos formulario--nombre" type="text" name="" id="nombre"
+            placeholder="Nombre completo">
+        </div>
+        <div>
+          <label class="sr-only" for="correo">correo</label>
+          <input class="formulario__campos formulario--correo" type="email" name="" id="correo"
+            placeholder="Correo electronico">
+        </div>
+        <div class="formulario--mitad">
+          <label class="sr-only" for="factura">factura</label>
+          <input class="formulario__campos formulario--factura" type="number" name="" id="factura"
+            placeholder="Número Factura">
+        </div>
+        <div class="formulario--mitad">
+          <label class="sr-only" for="telefono">telefono</label>
+          <input class="formulario__campos formulario--telefono" type="number" name="" id="telefono"
+            placeholder="Número de celular">
+        </div>
+        <div>
+          <button type="reset" class="btn btn__form">Eliminar</button>
+          <button type="submit" class="btn btn__nav">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Cards information -->
+  <div class="container">
+    <h2 class="titulos"> Cards Information Right </h2>
+    <div class="cards margin-bottom">
+      <img class="cards__image" src="public/assets/img/design_img/615x425.png" alt="img_negro">
+      <p class="cards__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe qui suscipit
+        asperiores ad modi cupiditate
+        et soluta corporis! Rem molestiae quas id omnis ullam est facere voluptatum. Sed ducimus veritatis et porro
+        voluptatum est eius quia vel architecto eaque et animi aspe riores in omnis nostrum. Ut asperiores accusamus
+        veleius vitae sed harum vero qui asperiores similique!. Lorem ipsum dolor sit amet. Nam tempore quidem et
+        blanditiis saepe qui suscipit asperiores ad modi cupiditate et soluta corporis! Rem molestiae quas id omnis
+        ullam est facere voluptatum. Suscipit asperiores ad modi cupiditate et soluta corporis Suscipit asperiores ad
+        modi cupiditate et soluta corporis modi cupiditate et soluta corporis</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="titulos"> Cards Information Left </h2>
+    <div class="cards cards--reverse margin-bottom">
+      <img class="cards__image" src="public/assets/img/design_img/615x425.png" alt="img_negro">
+      <p class="cards__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe qui suscipit
+        asperiores ad modi cupiditate
+        et soluta corporis! Rem molestiae quas id omnis ullam est facere voluptatum. Sed ducimus veritatis et porro
+        voluptatum est eius quia vel architecto eaque et animi aspe riores in omnis nostrum. Ut asperiores accusamus
+        veleius vitae sed harum vero qui asperiores similique!. Lorem ipsum dolor sit amet. Nam tempore quidem et
+        blanditiis saepe qui suscipit asperiores ad modi cupiditate et soluta corporis! Rem molestiae quas id omnis
+        ullam est facere voluptatum. Suscipit asperiores ad modi cupiditate et soluta corporis Suscipit asperiores ad
+        modi cupiditate et soluta corporis modi cupiditate et soluta corporis</p>
+    </div>
+  </div>
+
+  <!--Products Scroll-->
+  <div class="container">
+    <h2 class="titulos"> Target products</h2>
+    <div class="products margin-bottom flex ">
+      <img class="products__icons" src="public/assets/icons/flecha_izquierda.svg" alt="">
+      <div class="products__target--gris">
+        <a href="#"><img class="products__image" src="public/assets/img/home_img/pepsi.png" alt=""></a>
+        <div class="products__target__flex">
+          <p class="products__target__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe
+            qui
+            suscipit </p>
+          <img class="products__target__cesta" src="public/assets/icons/cesta_agregar.svg" alt="">
+        </div>
+      </div>
+      <div class="products__target--gris">
+        <a href="#"><img class="products__image" src="public/assets/img/home_img/pepsi.png" alt=""></a>
+        <div class="products__target__flex">
+          <p class="products__target__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe
+            qui
+            suscipit </p>
+          <img class="products__target__cesta" src="public/assets/icons/cesta_agregar.svg" alt="">
+        </div>
+      </div>
+      <div class="products__target--gris">
+        <a href="#"><img class="products__image" src="public/assets/img/home_img/pepsi.png" alt=""></a>
+        <div class="products__target__flex">
+          <p class="products__target__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe
+            qui
+            suscipit </p>
+          <img class="products__target__cesta" src="public/assets/icons/cesta_agregar.svg" alt="">
+        </div>
+      </div>
+      <div class="products__target--gris">
+        <a href="#"><img class="products__image" src="public/assets/img/home_img/pepsi.png" alt=""></a>
+        <div class="products__target__flex">
+          <p class="products__target__information">Lorem ipsum dolor sit amet. Nam tempore quidem et blanditiis saepe
+            qui
+            suscipit </p>
+          <img class="products__target__cesta" src="public/assets/icons/cesta_agregar.svg" alt="">
+        </div>
+      </div>
+      <img class="products__icons" src="public/assets/icons/flecha_derecha.svg" alt="">
+    </div>
+  </div>
+
+</body>
+
+</html>

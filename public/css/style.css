@@ -1,3 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap");
+.btn {
+  display: flex;
+  position: relative;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 400;
+  color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+}
+.btn__nav {
+  background-color: #fff;
+}
+.btn__nav:hover, .btn__nav:active {
+  background: linear-gradient(180deg, #96fbc4 0%, rgba(249, 245, 134, 0.92) 66.68%);
+  border: 2px solid transparent;
+  z-index: 1;
+}
+.btn__nav:hover:before, .btn__nav:active:before {
+  background-color: #eed893;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+}
+.btn__form {
+  background-color: #ef3061;
+}
+.btn__form:hover {
+  background-color: rgba(239, 48, 97, 0.62);
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.4375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Architects Daughter", cursive;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 /*# sourceMappingURL=style.css.map */
