@@ -65,6 +65,10 @@ a {
   width: 1px;
 }
 
+.center {
+  text-align: center;
+}
+
 .btn {
   display: flex;
   position: relative;

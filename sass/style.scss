@@ -36,5 +36,15 @@
     height: 120px;
     text-align: right;
   }
+}
 
+.form {
+  width: 100%;
+  border: 2px solid;
+  background-color: #EEE0E0;
+  padding: 60px;
+
+  &--space {
+    margin-right: 100px;
+  }
 }
