@@ -1,0 +1,50 @@
+@import 'botones';
+@import 'design-system';
+@import 'colores';
+@import 'general';
+@import 'header';
+@import 'footer';
+@import 'bonus';
+@import 'promo';
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  &__imagen {
+    max-width: 150px;
+  }
+
+  &__imagen--height {
+    max-width: 130px;
+  }
+
+  &__titulo {
+    flex-basis: 45%;
+  }
+
+  &__div {
+    flex-basis: 15%;
+  }
+
+  &__div--gris {
+    background-color: #c0bfbf;
+    border-radius: 80px;
+    padding-left: 120px;
+    height: 120px;
+    text-align: right;
+  }
+}
+
+.form {
+  width: 100%;
+  border: 2px solid;
+  background-color: #EEE0E0;
+  padding: 60px;
+
+  &--space {
+    margin-right: 100px;
+  }
+}
